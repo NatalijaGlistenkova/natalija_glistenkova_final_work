@@ -19,12 +19,12 @@ repositories {
 dependencies {
     // Use JUnit test framework.
     testImplementation 'junit:junit:4.13.1'
+    testImplementation group: 'org.mockito', name: 'mockito-core', version: '3.8.0'
 
-    // This dependency is used by the application.
-    implementation 'com.google.guava:guava:30.0-jre'
+
 }
 
 application {
     // Define the main class for the application.
-    mainClass = 'lv.lu.finalwork.App'
+    mainClass = 'lv.lu.natalija.glistenkova.finalwork.App'
 }
